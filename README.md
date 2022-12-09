@@ -1,1 +1,1 @@
-https://tun1x.github.io/rsschool-cv/cv
+https://tun1x.github.io/rsschool-cv/
