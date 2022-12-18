@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="icon" href="assets/img/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container header-container">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+          <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+        </ul>
+      </nav>
+      <div class="toggle">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <div class="container main-container">
+      <section class="section section-profile" id="profile">
+        <img src="./assets/img/avatar.jpg" alt="avatar" class="section-profile-logo">
+        <div class="section-profile-title">
+          <h1 class="section-title main-title">tun1x</h1>
+          <h3 class="section-subtitle">Front-End Developer</h3>
+        </div>
+      </section>
+      <section class="section" id="contacts">
+        <h2 class="section-title">Contacts</h2>
+        <ul class="section-list">
+          <li class="section-item contacts-item">
+            Volgograd, Russia
+          </li>
+          <li class="section-item contacts-item">
+            Email: <a href="mailto:********@gmail.com" title="Email">*******@gmail.com</a>
+          </li>
+          <li class="section-item contacts-item">
+            Github: <a href="https://github.com/tun1x" target="_blank" title="Github">tun1x</a>
+          </li>
+          <li class="section-item contacts-item">
+            Telegram: <a href="https://t.me/Holidays_53" target="_blank" title="Telegram">@Holidays_53</a>
+          </li>
+          <li class="section-item contacts-item">
+            Discord: <a href="https://discord.gg/De3vUTgxF7" target="_blank" title="Discord">tun1x#5766</a>
+          </li>
+        </ul>
+      </section>
+      <section class="section" id="summary">
+        <h2 class="section-title">Summary</h2>
+        <p>
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+          est laborum."
+        </p>
+      </section>
+      <section class="section" id="skills">
+        <h2 class="section-title">Skills</h2>
+        <ul class="section-list">
+          <li class="section-item">
+            Web-development:<span> JavaScript, HTML, CSS</span>
+          </li>
+          <li class="section-item">
+            Frameworks and libraries:<span> React</span>
+          </li>
+          <li class="section-item">
+            Version control:<span> GIT, Github</span>
+          </li>
+          <li class="section-item">
+            Graphics:<span> Figma, PS</span>
+          </li>
+        </ul>
+      </section>
+      <section class="section" id="code">
+        <h2 class="section-title">Code</h2>
+        <pre class="pre"><code>const para = document.querySelector('p');
+
+          para.addEventListener('click', updateName);
+          
+          function updateName() {
+            let name = prompt('Enter a new name');
+            para.textContent = 'Player 1: ' + name;
+          }
+}</code></pre>
+      </section>
+      <section class="section" id="courses">
+        <h2 class="section-title">Courses</h2>
+        <ul class="section-list">
+          <li class="section-item">
+            NONE
+        </ul>
+      </section>
+      <section class="section" id="projects">
+        <h2 class="section-title">Projects</h2>
+        <ul class="section-list">
+          <li class="section-item">
+            <a href="https://tun1x.github.io/marketing_0-1/" target="_blank">Marketing Agency</a>
+          </li>
+          <li class="section-item">
+            <a href="https://tun1x.github.io/Xiaomi-HIMO/" target="_blank">Xiaomi-HIMO</a>
+          </li>
+          <li class="section-item">
+            <a href="https://tun1x.github.io/landing-page-iphone-14/" target="_blank">iPhone Shop</a>
+          </li>
+        </ul>
+      </section>
+      <section class="section section-education" id="education">
+        <h2 class="section-title">Education</h2>
+        <p>Saratov State Higher Law Academy</p>
+      </section>
+      <section class="section section-english" id="english">
+        <h2 class="section-title">English</h2>
+        <p>B1 - Basic</p>
+      </section>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container footer-container">
+      <div> <a href="https://rs.school/js/" target="_blank"><img class="rs-logo" src="./assets/img/rs_school.png"
+            alt="rsschool"></a> © 2022 <a href="https://github.com/tun1x" class="github nav-link">tun1x</a>
+      </div>
+    </div>
+  </footer>
+
+
+</body>
+
+</html>
